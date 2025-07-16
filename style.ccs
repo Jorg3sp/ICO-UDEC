@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.ramo {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+}
+
+/* Estados */
+.ramo.bloqueado {
+  background-color: #e0e0e0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.ramo.disponible {
+  border: 2px dashed #bbb;
+}
+
+.ramo.aprobado {
+  border: 2px solid green;
+  opacity: 0.9;
+}
+
+/* Colores por categoría */
+.ramo.mat {
+  background-color: #cce5ff; /* azul claro */
+}
+
+.ramo.eco {
+  background-color: #a8d5a2; /* verde oscuro claro */
+}
+
+.ramo.adm {
+  background-color: #ffd8a8; /* naranjo claro */
+}
+
+.ramo.electivo {
+  background-color: #e0c8f7; /* violeta */
+}
