@@ -1,0 +1,392 @@
+[
+  {
+    "codigo": "136201",
+    "nombre": "Gestión de Empresas",
+    "creditos": 5,
+    "categoria": "adm",
+    "semestre": 1,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136202",
+    "nombre": "Cálculo I",
+    "creditos": 5,
+    "categoria": "mat",
+    "semestre": 1,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136203",
+    "nombre": "Economía I",
+    "creditos": 4,
+    "categoria": "eco",
+    "semestre": 1,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136204",
+    "nombre": "Álgebra I",
+    "creditos": 5,
+    "categoria": "mat",
+    "semestre": 1,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136205",
+    "nombre": "Derecho Corporativo I",
+    "creditos": 3,
+    "categoria": "adm",
+    "semestre": 1,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136206",
+    "nombre": "Gestión de Personas I",
+    "creditos": 3,
+    "categoria": "adm",
+    "semestre": 2,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136201"]
+  },
+  {
+    "codigo": "136207",
+    "nombre": "Contabilidad I",
+    "creditos": 5,
+    "categoria": "adm",
+    "semestre": 2,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136205"]
+  },
+  {
+    "codigo": "136208",
+    "nombre": "Cálculo II",
+    "creditos": 4,
+    "categoria": "mat",
+    "semestre": 2,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136202"]
+  },
+  {
+    "codigo": "136209",
+    "nombre": "Álgebra II",
+    "creditos": 5,
+    "categoria": "mat",
+    "semestre": 2,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136204"]
+  },
+  {
+    "codigo": "136210",
+    "nombre": "Economía II",
+    "creditos": 4,
+    "categoria": "eco",
+    "semestre": 2,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136203"]
+  },
+  {
+    "codigo": "136211",
+    "nombre": "Cálculo III",
+    "creditos": 4,
+    "categoria": "mat",
+    "semestre": 3,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136208"]
+  },
+  {
+    "codigo": "136212",
+    "nombre": "Contabilidad II",
+    "creditos": 5,
+    "categoria": "adm",
+    "semestre": 3,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136207"]
+  },
+  {
+    "codigo": "136213",
+    "nombre": "Microeconomía I",
+    "creditos": 4,
+    "categoria": "eco",
+    "semestre": 3,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136203"]
+  },
+  {
+    "codigo": "136214",
+    "nombre": "Estadística I",
+    "creditos": 4,
+    "categoria": "mat",
+    "semestre": 3,
+    "estado": "bloqueado",
+    "prerrequisitos": ["136209", "136208"]
+  },
+  {
+    "codigo": "136215",
+    "nombre": "Tecnologías de la Información I",
+    "creditos": 2,
+    "categoria": "adm",
+    "semestre": 3,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+  {
+    "codigo": "136216",
+    "nombre": "Formación General I",
+    "creditos": 2,
+    "categoria": "adm",
+    "semestre": 3,
+    "estado": "disponible",
+    "prerrequisitos": []
+  },
+{
+  "codigo": "136217",
+  "nombre": "Estadística II",
+  "creditos": 4,
+  "categoria": "mat",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136214"]
+},
+{
+  "codigo": "136218",
+  "nombre": "Microeconomía II",
+  "creditos": 4,
+  "categoria": "eco",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136213"]
+},
+{
+  "codigo": "136219",
+  "nombre": "Contabilidad de Gestión",
+  "creditos": 5,
+  "categoria": "adm",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136212"]
+},
+{
+  "codigo": "136220",
+  "nombre": "Métodos Cuantitativos",
+  "creditos": 4,
+  "categoria": "mat",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136214"]
+},
+{
+  "codigo": "136221",
+  "nombre": "Derecho Corporativo II",
+  "creditos": 3,
+  "categoria": "adm",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136205"]
+},
+{
+  "codigo": "136222",
+  "nombre": "Tecnologías de la Información II",
+  "creditos": 2,
+  "categoria": "adm",
+  "semestre": 4,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136215"]
+},
+{
+  "codigo": "136223",
+  "nombre": "Macroeconomía I",
+  "creditos": 4,
+  "categoria": "eco",
+  "semestre": 5,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136210"]
+},
+{
+  "codigo": "136224",
+  "nombre": "Finanzas I",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 5,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136219"]
+},
+{
+  "codigo": "136225",
+  "nombre": "Gestión de Marketing I",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 5,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136201"]
+},
+{
+  "codigo": "136226",
+  "nombre": "Formulación y Evaluación de Proyectos",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 5,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136219", "136220"]
+},
+{
+  "codigo": "136227",
+  "nombre": "Gestión de Personas II",
+  "creditos": 3,
+  "categoria": "adm",
+  "semestre": 5,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136206"]
+},
+{
+  "codigo": "136228",
+  "nombre": "Formación General II",
+  "creditos": 2,
+  "categoria": "adm",
+  "semestre": 5,
+  "estado": "disponible",
+  "prerrequisitos": []
+},
+{
+  "codigo": "136229",
+  "nombre": "Macroeconomía II",
+  "creditos": 4,
+  "categoria": "eco",
+  "semestre": 6,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136223"]
+},
+{
+  "codigo": "136230",
+  "nombre": "Finanzas II",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 6,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136224"]
+},
+{
+  "codigo": "136231",
+  "nombre": "Gestión de Marketing II",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 6,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136225"]
+},
+{
+  "codigo": "136232",
+  "nombre": "Dirección Estratégica",
+  "creditos": 4,
+  "categoria": "adm",
+  "semestre": 6,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136201"]
+},
+{
+  "codigo": "136233",
+  "nombre": "Inglés I",
+  "creditos": 2,
+  "categoria": "electivo",
+  "semestre": 6,
+  "estado": "disponible",
+  "prerrequisitos": []
+},
+{
+  "codigo": "136234",
+  "nombre": "Ética Profesional",
+  "creditos": 2,
+  "categoria": "adm",
+  "semestre": 6,
+  "estado": "disponible",
+  "prerrequisitos": []
+},
+{
+  "codigo": "136235",
+  "nombre": "Electivo Licenciatura I",
+  "creditos": 4,
+  "categoria": "electivo",
+  "semestre": 7,
+  "estado": "bloqueado",
+  "editable": true,
+  "prerrequisitos": []
+},
+{
+  "codigo": "136236",
+  "nombre": "Electivo Licenciatura II",
+  "creditos": 4,
+  "categoria": "electivo",
+  "semestre": 7,
+  "estado": "bloqueado",
+  "editable": true,
+  "prerrequisitos": []
+},
+{
+  "codigo": "136237",
+  "nombre": "Electivo Profesional I",
+  "creditos": 4,
+  "categoria": "electivo",
+  "semestre": 8,
+  "estado": "bloqueado",
+  "editable": true,
+  "prerrequisitos": []
+},
+{
+  "codigo": "136238",
+  "nombre": "Electivo Profesional II",
+  "creditos": 4,
+  "categoria": "electivo",
+  "semestre": 8,
+  "estado": "bloqueado",
+  "editable": true,
+  "prerrequisitos": []
+},
+{
+  "codigo": "136239",
+  "nombre": "Inglés II",
+  "creditos": 2,
+  "categoria": "electivo",
+  "semestre": 7,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136233"]
+},
+{
+  "codigo": "136240",
+  "nombre": "Inglés III",
+  "creditos": 2,
+  "categoria": "electivo",
+  "semestre": 8,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136239"]
+},
+{
+  "codigo": "136241",
+  "nombre": "Inglés IV",
+  "creditos": 2,
+  "categoria": "electivo",
+  "semestre": 9,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136240"]
+},
+{
+  "codigo": "136242",
+  "nombre": "Práctica Profesional",
+  "creditos": 10,
+  "categoria": "adm",
+  "semestre": 9,
+  "estado": "bloqueado",
+  "prerrequisitos": []
+},
+{
+  "codigo": "136243",
+  "nombre": "Seminario de Título",
+  "creditos": 10,
+  "categoria": "adm",
+  "semestre": 10,
+  "estado": "bloqueado",
+  "prerrequisitos": ["136242"]
+}
